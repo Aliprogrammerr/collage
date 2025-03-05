@@ -1,0 +1,42 @@
+name: collage
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.0
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  get: ^4.7.2
+  gap: ^3.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/images/
+    - assets/fonts/
+
+  fonts:
+    - family: Anjoman
+      fonts:
+        - asset: assets/fonts/Anjoman-Regular.ttf
+        - asset: assets/fonts/Anjoman-Medium.ttf
+        - asset: assets/fonts/Anjoman-Bold.ttf
+          weight : 700
+    - family: dana
+      fonts:
+        - asset: assets/fonts/DANA-REGULAR.ttf
+        - asset: assets/fonts/DANA-BOLD.ttf
+          weight: 700
